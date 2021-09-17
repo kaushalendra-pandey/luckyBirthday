@@ -1,3 +1,7 @@
+:root {
+    font-family: 'Rampart One', cursive;;
+}
+
 .input-box {
     display: flex;
     justify-content: space-evenly;
@@ -13,7 +17,7 @@ input {
     margin: 2rem;
     padding: 1rem;
     border-radius: 8px;
-    font-size: 15px;
+    font-size: 13px;
     width: 15vw;
 }
 
@@ -26,7 +30,8 @@ button {
     margin: 0.8rem;
     border-radius: 8px;
     width: 20vw;
-    background: cornflowerblue;
+    background: #99F0FF;
+    font-size: 20px;
 
 }
 

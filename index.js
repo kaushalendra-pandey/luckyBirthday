@@ -35,7 +35,7 @@ const findIfLuckOrNot = () => {
     month = parseInt(monthStr)
     year = parseInt(yearStr)
     
-    if(!day || !month || !year || day>31 || month>12 || year<1990 || year>2025) {
+    if(!day || !month || !year || day>31 || month>12 || year<1930 || year>2025) {
         // show alert here..
         console.log("1")
        errorAlert("Invalid birthdate !!")
